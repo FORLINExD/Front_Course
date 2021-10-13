@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #edd398;
+}
+
+h1 {
+    margin: 10px;
+    font-family: "Book Antiqua", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Consolas, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+.rr-outer {
+    display: flex;
+    justify-content: center;
+
+}
+.rr-inner {
+    width: fit-content;
+    border: solid 5px #333333;
+    box-shadow: 10px 10px 15px #333333;
+}
+
+.btn {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 50px;
+    background: #307fd1;
+    width: 150px;
+    height: 80px;
+    border: none;
+    box-shadow: 5px 5px 5px #333;
+}
+
+button:hover {
+    background: #009dff;
+    box-shadow: 5px 5px 5px #575555;
+}
+
+a {
+    text-decoration: none;
+    color: #f9db00;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
