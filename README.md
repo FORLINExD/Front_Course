@@ -1,2 +1,2 @@
 # Front_Course
-Nothing interesting
+This directory is used for my homeworks
