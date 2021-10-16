@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #cdd2dc;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    background: #a6bbbf;
+    color: #000;
+    width: 1500px;
+    height: auto;
+    justify-content: center;
+    font-family: 'Open sans', sans-serif;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #333333;
+
+}
+
+.right-side {
+    margin: 0 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.photo {
+    height: 300px;
+    margin: 10px;
+}
+
+a {
+    color: #842828;
+}
+
+a:hover {
+    color: #000000;
+    transition-duration: .5s;
+}
+
+h1, h2, h3 {
+    margin: 15px 0;
+}
+
+h2 {
+    color: #575555;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+
+.italic-font {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #000000;
+}
+
+hr {
+    margin: 5px 0;
+    border: 1px solid #718180;
+}
+
+.born {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.sub-born {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.pure-text {
+    margin: 10px 0;
+}
+
+.film-list {
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.film-item {
+    box-sizing: border-box;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.film-item:hover {
+    background: #8ba3a5;
+}
+
+.film-item > a {
+    text-decoration: none;
+    color: #763a14;
+}
+
+.film-item > a:hover {
+    text-decoration: none;
+    font-size: 22px;
+    transition-duration: .5s;
+    color: #842828;
+}
