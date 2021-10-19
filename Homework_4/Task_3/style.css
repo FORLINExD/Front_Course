@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #191818;
+}
+
+.container {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 750px;
+    min-height: 1100px;
+    margin: 20px;
+    background: #ffffff;
+}
+
+.inner-top {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background: #1a5592;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    column-gap: 20px;
+}
+
+.inner-main {
+    flex-basis: 230px;
+    height: 250px;
+    background: #082f55;
+}
+
+.inner-footer {
+    width: 100%;
+    height: 500px;
+    background: #1a5592;
+}
+
+
