@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #951216, #540eaa);
+}
+
+.main-container {
+    flex-basis: 600px;
+    box-sizing: border-box;
+    background: #ffffff;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.h-header {
+    flex-basis: 100%;
+    min-height: 100px;
+    background: #db2525;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.lr-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    flex-basis: 100%;
+    min-height: 450px;
+    margin-bottom: 5px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    flex-basis: 35%;
+}
+
+#hero {
+    flex-basis: 100%;
+    flex-shrink: 10;
+    background: #b73ccd;
+    border-radius: 10px;
+}
+
+#sidebar {
+    flex-basis: 100%;
+    flex-shrink: 8;
+    background: #8bbf47;
+    border-radius: 10px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+    row-gap: 5px;
+}
+
+#main-content {
+    flex-basis: 100%;
+    flex-shrink: 5;
+    background: #195fa7;
+    border-radius: 10px;
+}
+
+#extra-content {
+    flex-basis: 100%;
+    flex-shrink: 10;
+    background: #5ba3f0;
+    border-radius: 10px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    min-height: 150px;
+    flex-basis: 100%;
+    margin-bottom: 5px;
+}
+
+.r-images {
+    flex-basis: 68%;
+    background: #2bb573;
+    border-radius: 10px;
+}
+.r-posts {
+    flex-basis: 32%;
+    background: #e37da9;
+    border-radius: 10px;
+}
+
+.f-footer {
+    flex-basis: 100%;
+    background: #fca401;
+    min-height: 100px;
+    border-radius: 10px;
+}
