@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+.wh150 {
+    width: 150px;
+    height: 150px;
+}
+
+.wh170__150 {
+    width: 170px;
+    height: 150px;
+}
+.w100 {
+    width: 100%;
+}
+.h300 {
+    height: 300px;
+}
+
+.wh200__85 {
+    width: 200px;
+    height: 85%;
+}
+
+.brd15 {
+    border-radius: 15px;
+}
+.brd50 {
+    border-radius: 50%;
+}
+
+.bg__light {
+    background: #ced8e1;
+}
+
+.bg__blue {
+    background: #005174
+}
+
+.bg__dark, .h1__text{
+    background: #122940;
+}
+
+.bg__cyan {
+    background: #3ac6ea;
+}
+
+h1, h2, h3, p, span {
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 3px;
+}
+
+p {
+    min-width: 30px;
+    min-height: 10px;
+    background: #112c3f;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    background: #122940;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    transition-duration: 0.3s;
+    opacity: 0.7;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, #2daddd, #62d1aa);
+}
+
+/******************  MAIN CONTAINER  *******************/
+
+.main__container {
+    width: 1300px;
+    box-shadow: 0 0 15px #333;
+}
+.main__header {
+    width: 100%;
+    min-height: 150px;
+}
+
+.soc__block {
+    height: 50px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.soc__item {
+    color: #ffffff;
+    width: 60px;
+    height: 10px;
+    border-radius: 15px;
+}
+
+.header {
+    padding: 15px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+
+}
+
+.links {
+    display: flex;
+    min-width: 100px;
+    margin: 30px 90px 0 0;
+
+}
+
+.links > p {
+    min-width: 80px;
+    height: 10px;
+    background: #122940;
+    margin: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+/******************  MAIN CONTAINER  *******************/
+
+
+/******************  SUB HEADER  *******************/
+
+.sub__header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1__text {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.p__text {
+    text-align: center;
+}
+
+.h1__text > h1, .p__text > p {
+    width: 350px;
+}
+
+
+/******************  SUB HEADER  *******************/
+
+/***************   ABOUT   ******************/
+
+.about {
+    background: #ffffff;
+}
+
+.top__container {
+    height: 400px;
+    padding-top: 20px;
+}
+
+.top__border-block {
+    height: 90%;
+    margin: 0 50px;
+    border: 3px solid #01acbd;
+    border-radius: 40px;
+}
+
+.inner__header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px;
+    column-gap: 5px;
+}
+
+.inner__main {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex__square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.sub__text {
+    display: flex;
+    width: fit-content;
+    column-gap: 5px;
+}
+
+.bottom__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.bottom__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+    border: 1px solid #102b3e;
+    transition-duration: .2s;
+}
+
+.bottom__block:hover {
+    border: 3px solid #7db0c4;
+    transition-duration: .2s;
+    border-radius: 10px;
+}
+
+.staff {
+    margin-bottom: 20px;
+}
+
+.bottom__block > p {
+    background: #a2aab1;
+    min-width: 120px;
+    min-height: 5px;
+}
+
+/***************   ABOUT   ******************/
+
+
+/********************** WRAP ********************/
+
+.main__wrap {
+    min-height: 1000px;
+}
+
+.wrap__title {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 100px 0 50px 0;
+}
+
+.wrap__block {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    width: 85%;
+    height: 800px;
+}
+
+.card {
+    flex: 1 1 30%;
+    border: 3px solid #01acbd;
+    border-radius: 20px;
+    background: #aedae3;
+}
+
+.card__photo {
+    margin: 10px;
+    flex-basis: 100%;
+    height: 150px;
+}
+
+.card_text {
+    margin: 10px 5px 0;
+    height: 170px;
+}
+
+.card__footer {
+    margin-top: 5px;
+    padding: 0 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid #01acbd;
+}
+
+.card__footer-left {
+    width: 50px;
+    height: 20px;
+    background: #102b3e;
+}
+
+.card__footer-right{
+    display: flex;
+    column-gap: 5px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/********************** WRAP ********************/
+
+/********************  SUB WRAP  **********************/
+
+.sub__wrap-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.both__blocks {
+    display: flex;
+    width: 85%;
+    min-height: 400px;
+}
+
+.left__block, .right__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    width: 50%;
+}
+
+.left__block > button, .right__block > button {
+    margin-left: 10px;
+}
+
+.left__block > * {
+    color: #000000;
+    background: #3ac6ea;
+}
+
+.right__block > * {
+    background: #102b3e;
+}
+
+/********************  SUB WRAP  **********************/
+
+/********************  MAIN FOOTER  ********************/
+
+.main__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    min-height: 150px;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 5px;
+}
+
+.footer__text, .footer__icons {
+    width: fit-content;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.footer__text > p {
+    color: #000000;
+    background: #3ac6ea;
+}
+
+/**********************  MAIN FOOTER  ******************/
