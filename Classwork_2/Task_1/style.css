@@ -87,7 +87,10 @@ body {
 /******************  MAIN CONTAINER  *******************/
 
 .main__container {
-    width: 1300px;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-right: 10px;
+    padding-left:  10px;
     box-shadow: 0 0 15px #333;
 }
 .main__header {
@@ -182,12 +185,12 @@ body {
 }
 
 .top__container {
-    height: 400px;
-    padding-top: 20px;
+    min-height: 400px;
+    padding: 20px 0;
 }
 
 .top__border-block {
-    height: 90%;
+    min-height: 90%;
     margin: 0 50px;
     border: 3px solid #01acbd;
     border-radius: 40px;
@@ -201,7 +204,7 @@ body {
 }
 
 .inner__main {
-    height: 200px;
+    min-height: 200px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -276,7 +279,7 @@ body {
     row-gap: 15px;
     column-gap: 15px;
     width: 85%;
-    height: 800px;
+    min-height: 800px;
 }
 
 .card {
