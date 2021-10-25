@@ -1,0 +1,250 @@
+@media screen and (max-width: 1400px) and (min-width: 1074px) {
+    .content__small {
+        padding-top: 25%;
+    }
+
+    .wrap__small,
+    .wrap__large {
+        max-width: 100%;
+    }
+
+    .wrap__large {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1073px) {
+    .wrap__small,
+    .wrap__large {
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 1072px) and (min-width: 993px) {
+    .wrap__small,
+    .wrap__large {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .three__blocks {
+        bottom: -125px;
+    }
+    .header__block {
+        width: 250px;
+        height: 250px;
+    }
+
+    .wrap__small,
+    .wrap__large {
+        max-width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .three__blocks {
+        bottom: -100px;
+    }
+    .header__block {
+        width: 200px;
+        height: 200px;
+    }
+
+    .wrap__small,
+    .wrap__large {
+        max-width: 80%;
+    }
+    .small__block {
+        width: 200px;
+        height: 200px;
+    }
+
+    .column__s-block > p {
+        font-size: 16px;
+    }
+
+    .column__l-block {
+        width: 100%;
+    }
+
+    .sub__l-block > p {
+        font-size: 16px;
+    }
+
+    .column__l-block * {
+        width: fit-content;
+    }
+
+    .large__block {
+        width: 550px;
+        height: 250px;
+    }
+
+    .sub__slider {
+        padding: 100px 0;
+    }
+
+    .staff {
+        width: 85%;
+    }
+
+    .circle {
+        min-width: 170px;
+        min-height: 170px;
+    }
+
+    .about__text {
+        font-size: 16px;
+        width: 430px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width: 451px){
+    .main__container {
+        width: 100%;
+    }
+
+    .menu__item {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .front__page-text {
+        width: 500px;
+    }
+
+    .three__blocks {
+        bottom: -75px;
+    }
+    .header__block {
+        width: 150px;
+        height: 150px;
+    }
+
+    .wrap__small,
+    .wrap__large {
+        max-width: 100%;
+    }
+
+    .small__block {
+        width: 150px;
+        height: 150px;
+    }
+
+    .column__s-block > p {
+        font-size: 14px;
+    }
+
+    .large__block {
+        width: 450px;
+        height: 250px;
+    }
+
+    .sub__l-block {
+        width: 100%;
+    }
+
+    .sub__l-block > p {
+        font-size: 14px;
+    }
+
+    .staff {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .circle {
+        min-width: 160px;
+        min-height: 160px;
+    }
+
+    .about__text {
+        text-align: center;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main__container {
+        width: 100%;
+    }
+
+    .menu__item {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .front__page-text {
+        width: 400px;
+    }
+
+    .three__blocks {
+        bottom: -60px;
+    }
+    .header__block {
+        width: 120px;
+        height: 120px;
+    }
+
+    .wrap__small,
+    .wrap__large {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .small__block {
+        width: 180px;
+        height: 180px;
+    }
+
+    .column__s-block > p {
+        font-size: 16px;
+    }
+
+    .large__block {
+        width: 380px;
+        height: 200px;
+    }
+
+    .sub__l-block {
+        width: 100%;
+    }
+
+    .sub__l-block > p {
+        font-size: 16px;
+    }
+
+    .staff {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .circle {
+        min-width: 160px;
+        min-height: 160px;
+    }
+
+    .about__text {
+        text-align: center;
+        width: 350px;
+    }
+}
