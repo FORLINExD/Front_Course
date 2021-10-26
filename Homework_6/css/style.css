@@ -15,7 +15,7 @@
 
 .header {
     height: 100vh;
-    background: url("../image/bg.png") no-repeat center top/cover;
+    background: url("../image/header_bg.png") no-repeat center top/cover;
     font-family: Open Sans, sans-serif;
 }
 
