@@ -11,11 +11,7 @@
         width: 50px;
     }
 
-    .nav__menu {
-        display: none;
-    }
-
-    #nav__line {
+    .nav__menu, #nav__line  {
         display: none;
     }
 
@@ -50,6 +46,67 @@
 
     .header__title button {
         padding: 0 46px;
+    }
+
+    /*------------------------------------*/
+
+    .three__blocks {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 14px;
+    }
+
+    .header__block{
+        width: 290px;
+        height: 276px;
+    }
+
+    .header__block h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .header__block p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    /*------------------------------------*/
+
+    .our__history-main {
+        margin-top: 850px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .our__history-main img {
+        width: 290px;
+        height: 257px;
+        margin-top: 45px;
+    }
+
+    .history__about {
+        row-gap: 35px;
+        margin: 0;
+    }
+
+    .history__about h2 {
+        max-width: 181px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .history__about p {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .food__quantity {
+        flex-direction: column;
+        row-gap: 22px;
     }
 
 }
