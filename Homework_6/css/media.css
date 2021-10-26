@@ -1,0 +1,55 @@
+@media screen and (max-width: 400px) {
+    .wrapper {
+        max-width: 400px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    #nav__line {
+        display: none;
+    }
+
+    .header__burger-btn {
+        display: flex;
+    }
+
+    .header__title {
+        margin: 259px 0 0 0;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 12px 0 45px 0;
+    }
+
+    .header__title p:before,
+    .header__title p:after {
+        display: none;
+    }
+
+    .header__title button {
+        padding: 0 46px;
+    }
+
+}
