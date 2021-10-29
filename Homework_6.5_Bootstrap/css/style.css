@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*------------------------------- HEADER TOP -----------------------------------*/
+
+.header {
+    height: 100vh;
+    background: url("../image/header_bg.png") no-repeat center top/cover;
+    font-family: Open Sans, sans-serif;
+}
+
+.nav__menu * {
+    color: #FFFFFF;
+}
+
+.nav__menu a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.nav__menu img {
+    width: 15px;
+}
+
+#nav__line {
+    width: 1px;
+    background: #FFFFFF;
+    height: 51px;
+}
+
+.nav__phone {
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.nav__phone img {
+    width: 23px;
+}
+
+.nav__phone span {
+    column-gap: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.nav__phone p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 154px;
+}
+
+.header__btn {
+    height: 47px;
+    padding: 0 19px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #FF7400;
+    border: none;
+    cursor: pointer;
+}
+
+.header__btn:hover {
+    opacity: 0.9;
+}
+
+/*------------------------------- HEADER TOP -----------------------------------*/
+
+/*------------------------- HEADER ----------------------------*/
+
+
+.header__title {
+    max-width: 520px;
+    font-family: Tinos, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #D67E35;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    column-gap: 8px;
+}
+
+.header__title p:before,
+.header__title p:after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+/*!*------------------------- HEADER ----------------------------*!*/
+
+/*!*-----------------------MOBILE BURGER------------------------------*!*/
+
+.header__burger-btn {
+    display: none;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 30px;
+}
+
+.header__burger-btn div {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}
+
+.nav__menu.active {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    width: 390px;
+    padding-top: 20px;
+    top: 60px;
+    right: 5px;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.91);
+}
+
+/*!*-----------------------MOBILE BURGER------------------------------*!*/
+
+/*!*----------------------- THREE BLOCKS------------------------------*!*/
+
+.header__block {
+    padding-top: 48px;
+    width: 328px;
+    height: 349px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header__block * {
+    font-family: Tinos, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header__block img {
+    width: 87px;
+    height: 87px;
+}
+
+.header__block h3 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+
+.header__block p {
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+    padding: 0 15px;
+}
+
+.header__block span {
+    color: #bc9060;
+}
+
+/*!*----------------------- THREE BLOCKS------------------------------*!*/
+
+/*!*-------------------------- OUR HISTORY MAIN ---------------------------*!*/
+
+.our__history-main {
+    margin-top: 400px;
+}
+
+.history__about {
+    max-width: 444px;
+}
+
+.history__about * {
+    font-family: "Open sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.history__about h2 {
+    font-family: Tinos, sans-serif;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.history__about span {
+    font-family: Tinos, sans-serif;
+    color: #d67e34;
+}
+
+.history__about p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+}
+
+.block__quantity h3 {
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+}
+
+.block__quantity p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/*!*-------------------------- OUR HISTORY MAIN ---------------------------*!*/
+
+/*!*------------------- BUSINESS LUNCH BLOCK--------------------------*!*/
+
+.business__lunch_block {
+    background: url("../image/business_lunch_bg.png") no-repeat center top/cover;
+}
+
+.business__lunch_block button {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.business__lunch_about * {
+    font-style: normal;
+}
+
+.business__lunch_about h2 {
+    font-family: Tinos, sans-serif;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
+
+.business__lunch_about p {
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+/*!*------------------- OUR MEALS BLOCK--------------------------*!*/
+
+.our__meals {
+    max-width: 1129px;
+    margin: 150px 165px;
+}
+
+.our__meals_title {
+    margin-bottom: 140px;
+}
+
+.our__meals_title h2 {
+    font-family: Tinos, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.our__meals_title span {
+    color: #d67e34;
+}
+
+.menu__block {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.menu__block p {
+    font-family: Tinos, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.menu__block span {
+    font-size: 19px;
+}

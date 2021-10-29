@@ -1,0 +1,176 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 768px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+    }
+
+    .header__logo img {
+        width: 70px;
+    }
+
+    .nav__menu, #nav__line {
+        display: none;
+    }
+
+    .header__burger-btn {
+        display: flex;
+    }
+
+    .header__title {
+        margin: 259px 0 0 100px;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 12px 0 45px 0;
+    }
+
+    .header__title p:before,
+    .header__title p:after {
+        display: none;
+    }
+
+    .header__title button {
+        padding: 0 46px;
+    }
+
+    /*------------------------------------*/
+    .three__blocks {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 14px;
+    }
+
+    .header__block {
+        width: 300px;
+        height: 295px;
+    }
+
+    .header__block h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .header__block p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    /*------------------------------------*/
+    .our__history-main {
+        margin-top: 850px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .our__history-main img {
+        width: 290px;
+        height: 257px;
+        margin-top: 45px;
+    }
+
+    .history__about {
+        row-gap: 35px;
+        margin: 0;
+    }
+
+    .history__about h2 {
+        max-width: 181px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .history__about p {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .food__quantity {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    /*------------------------------------*/
+    .business__lunch_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0 30px;
+        row-gap: 30px;
+    }
+
+    .business__lunch_about h2 {
+        padding: 0 40px;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .business__lunch_about p {
+        padding: 0 25px;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    /*------------------------------------*/
+    .our__meals_title h2 {
+        max-width: 181px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .our__meals {
+        margin: 150px 0;
+    }
+
+    .our__meals_bottom {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .our__meals_bottom > img {
+        width: 400px;
+        height: 478px;
+    }
+
+    .menu__block {
+        column-gap: 10px;
+    }
+
+    .menu__block > img {
+        width: 130px;
+        height: 113px;
+    }
+
+    .menu__block p {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+        max-width: 190px;
+    }
+
+    .menu__block span {
+        display: none;
+    }
+
+}
