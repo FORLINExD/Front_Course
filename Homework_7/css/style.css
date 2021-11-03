@@ -102,6 +102,10 @@
 
 /*------------------------------------------------------*/
 
+.left__block img {
+    max-width: 100%;
+}
+
 .modernste__block {
     margin-top: 67px;
 }
@@ -131,6 +135,10 @@
 
 .two__stripes_block {
     margin-top: 90px;
+}
+
+.two__stripes_left {
+    width: 50%;
 }
 
 .two__stripes_left h2 {

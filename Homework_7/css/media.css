@@ -1,3 +1,51 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
+
+    .main__page_left_top h1 {
+        font-size: 34px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .main__page_text_top {
+        display: flex;
+        justify-content: center;
+    }
+    .main__page_text_top::after {
+        display: none;
+    }
+
+
+    .modernste__block .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modernste__block .left__block, .right__block {
+        width: 100%;
+    }
+
+    .modernste__block .right__block {
+        padding-top: 25px;
+    }
+
+
+    .two__stripes_block .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .two__stripes_right, .two__stripes_left {
+        width: 100%;
+    }
+
+    .two__stripes_left h2 {
+        font-size: 18px;
+        line-height: 40px;
+        align-items: center;
+    }
+
+    .ihre__vorteil_block {
+        margin-top: 20px;
+    }
 
 }
