@@ -518,29 +518,17 @@ a:hover {
     background: #F4F5FA;
     border-radius: 10px;
     padding: 20px 15px;
-    height: 190px;
+    height: auto;
 }
 
-.product__first * {
+.product__first *, .product__second * {
     font-family: Roboto, sans-serif;
     font-style: normal;
     margin: 0;
 }
 
-.product__second * {
-    margin: 0;
-}
-
-.product__first h4 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    color: #0F2438;
-    margin-bottom: 18px;
-}
-
-.product__second h4 {
-    font-weight: 700;
+.product__first h4, .product__second h4 {
+    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
@@ -589,7 +577,7 @@ a:hover {
 }
 
 .product__price button {
-    margin-left: 30px;
+    margin-left: 25px;
     padding: 16px 22px;
     background: #005BB9;
     border-radius: 6px;
@@ -1149,19 +1137,15 @@ a:hover {
     column-gap: 55px;
 }
 
-.footer__copyright h2 {
+.copyright__text h2 {
     font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 20px;
     color: #737E9B;
-    margin: 0;
 }
 
-.footer__copyright {
-    display: none;
-    padding: 15px 0;
-    background: #0E1E2F;
-    border-top: 1px solid #1D3044;;
+.copyright__text {
+    padding: 15px 10px;
 }
 
 /*------------------------------ FOOTER -------------------------------*/
